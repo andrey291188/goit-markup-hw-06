@@ -832,6 +832,7 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: var(--is-transition-bg-color);
   fill: #2e2f42;
+  ;
 }
 
 .button-closed {
@@ -890,13 +891,15 @@ button {
 }
 
 .form-input-textarea {
+  display: block;
   font-size: 12px;
   font-weight: 400;
-
+  margin-bottom: 4px;
   letter-spacing: 0.04em;
   text-align: left;
   color: #8e8f99;
 }
+
 .backdrop-textarea {
   font-size: 16px;
   font-weight: 500;
@@ -927,6 +930,9 @@ button {
   outline: none;
 }
 
+.policy-style-text {
+  color: var(--btn-bgc-hero-primary);
+}
 
 .form-policy {
   display: flex;
@@ -977,7 +983,7 @@ button {
   top: 50%;
   left: 18px;
   transform: translateY(-50%);
-  fill: #8e8f99;
+  fill: #2E2F42;
   transition: var(--is-transition-fill);
 }
 .icon-position-input {
